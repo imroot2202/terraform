@@ -9,7 +9,7 @@ resource "aws_instance" "myfirst_instance" {
   tags = {
     Name  = "super instance"
     Owner = "Artem Havrylenko"
-    Phone = "+380971652575"
+    Phone = "2575"
   }
 }
 
@@ -20,6 +20,6 @@ resource "aws_instance" "mySecond_instance" {
   tags = {
     Name  = "super instance 2"
     Owner = "Artem Havrylenko"
-    Phone = "+380971652575"
+    Phone = "2575"
   }
 }
